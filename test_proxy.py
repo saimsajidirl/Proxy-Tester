@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
 """
 Proxy Tester: Check working proxies, rank by speed, and save in string format
 to good_proxies.json as: FACEBOOK_PROXIES="ip:port" or with auth.
 """
-
 import json
 import time
 import os
