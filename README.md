@@ -27,22 +27,36 @@ pip install requests
 
 ## Usage
 
-1. Run the script:
+You can provide proxies either interactively or from a file.
+
+### 1. Interactive Input
+Run the script without arguments:
 ```bash
 python test_proxy.py
 ```
-
-2. Paste your proxy list when prompted (one proxy per line):
+Paste your proxy list when prompted (one proxy per line):
 ```
 161.35.70.249:8080
 139.59.1.14:80
 57.129.81.201:8080
 138.68.60.8:80
 ```
+Press Enter twice to finish input.
 
-3. Press Enter twice to finish input
+### 2. Load Proxies from a File
+Prepare a text file (e.g., `proxies.txt`) with one proxy per line:
+```
+161.35.70.249:8080
+139.59.1.14:80
+57.129.81.201:8080
+138.68.60.8:80
+```
+Run the script with the filename as an argument:
+```bash
+python test_proxy.py proxies.txt
+```
 
-4. The script will test all proxies and display results
+The script will test all proxies and display results as described below.
 
 ## Output
 
