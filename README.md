@@ -88,7 +88,7 @@ This format is ready to use as an environment variable for Facebook automation t
 
 You can modify these settings in `test_proxy.py`:
 
-- `TEST_URL`: The URL used to test proxies (default: "http://httpbin.org/ip")
+- `TEST_URL`: The URL used to test proxies (default: "www.youtube.com")
 - `TIMEOUT`: Request timeout in seconds (default: 10)
 - `MAX_THREADS`: Maximum concurrent proxy tests (default: 30)
 
